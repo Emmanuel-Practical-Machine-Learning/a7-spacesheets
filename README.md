@@ -1,4 +1,7 @@
 # a7-spacesheets
+by Alyssa Hogan and Drew Kotarski 
+
+written for *Practical Machine Learning for Liberal Arts* at Emmanuel College 2022 with Professor Mark Sherman
 
 **Introduction:**
 
