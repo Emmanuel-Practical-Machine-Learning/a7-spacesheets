@@ -39,7 +39,7 @@ The basics of understanding the SpaceSheet are as follows: [^3]
 [^3]: Loh, B., &amp; White, T. (2018). SpaceSheets: Interactive Latent Space Exploration through a Spreadsheet Interface (thesis). SpaceSheet. Retrieved May 25, 2022, from https://vusd.github.io/spacesheet/. 
 [^4]: Loh, B., &amp; White, T. (2018). SpaceSheets: Interactive Latent Space Exploration through a Spreadsheet Interface (thesis). SpaceSheet. Retrieved May 25, 2022, from https://vusd.github.io/spacesheet/. 
 
-<img width="788" alt="Screen Shot 2022-06-16 at 1 52 32 PM" src="https://user-images.githubusercontent.com/77938288/174135008-997884db-ffa3-438c-a53f-2efcaa4520a3.png">
+![operation cheatsheet](img/img_1.png)
 
 **Part 1 Problem Set:** 
 
@@ -62,7 +62,7 @@ To begin, the colored squares weren’t a part of the latent space, but they did
 [^5]: Loh, B. J. Y. (2018). Spacesheets: Design Experimentation In Latent Space (thesis). 
 
 
-<img width="630" alt="Screen Shot 2022-06-16 at 2 14 42 PM" src="https://user-images.githubusercontent.com/77938288/174138784-bf4b12df-1933-4051-8856-fce56b607071.png"> [^6]
+![latent space graphic](img/img_2.png) [^6]
 
 [^6]: Tiu, E. (2020, February 4). Understanding latent space in machine learning. Medium. Retrieved June 28, 2022, from https://towardsdatascience.com/understanding-latent-space-in-machine-learning-de5a7c687d8d 
 
@@ -77,16 +77,16 @@ The same process is applied to averaging fonts. Each font has a latent space var
 Respond to the questions below the bold boxes correlating to the directions. 
 
 
-<img width="697" alt="Screen Shot 2022-06-16 at 3 10 46 PM" src="https://user-images.githubusercontent.com/77938288/174147283-b0ca50d3-e108-46cc-94bc-df8046f8ff94.png">
+![Prompt: Go to the fonts selections. Create 3 groups with 6 fonts in each group. Group A should all have a boldness characteristic. Group B should all have a thinness characteristic. Group C should all have an italic characteristic. Average each of the sets.](img/img_3.png) 
 Hypothesize what each outcome will look like before the average. What are common trends among the results? Are there any results that are surprising?  Describe what you see.
 
 
-<img width="696" alt="Screen Shot 2022-06-16 at 3 16 55 PM" src="https://user-images.githubusercontent.com/77938288/174148061-509435b3-4ae6-4b83-827d-853df20f754d.png">
+![Prompt: Add the average of set A (bold) to set C (Italics)](img/img_4.png)
 Predict what will happen. Was the outcome what you thought? Why or why not?  Describe what you see.
 
 
 
-<img width="698" alt="Screen Shot 2022-06-16 at 3 20 30 PM" src="https://user-images.githubusercontent.com/77938288/174148553-169fb9e2-05ad-4bbe-a12e-c1d1b42c05c6.png">
+![Prompt: Subtract the average of set B (thin) from the average of set A (bold) (A-B)](img/img_5.png) 
 Do you have a hypothesis for what happened in the latent space? Can you describe what you see? Were you surprised by the result?
 
 
@@ -95,7 +95,7 @@ By subtracting B from A not only did we create a new font, but we also created a
 
 
 
-<img width="699" alt="Screen Shot 2022-06-16 at 3 21 56 PM" src="https://user-images.githubusercontent.com/77938288/174148948-1b39a135-95c7-41d7-9aff-49a569da674f.png">
+![Prompt: Add this newly created front from A-B to the average of set C (italics)](img/img_6.png)
 Describe what you see. What do you think happened in the latent space? Go back to part 1 question B, do these two fonts look similar? Why do you think this is the case? Hypothesize the effect of subtracting A-B and applying that difference to set C does?
 
 
